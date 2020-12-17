@@ -1,16 +1,14 @@
-# school_management
+# School Management App UI Flutter | Backend Firebase
 
-A new Flutter project.
+Flutter based School Management App | Flutter | Backend Firebase
 
-## Getting Started
+## Demo
+Demo available on YouTube.
 
-This project is a starting point for a Flutter application.
+Link: https://www.youtube.com/watch?v=roZYSxsk-ho
 
-A few resources to get you started if this is your first Flutter project:
+## Screenshot
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+![school mngt ui](https://user-images.githubusercontent.com/54774962/102515635-ff363b80-40b3-11eb-82e7-8b3872815ce1.png)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
