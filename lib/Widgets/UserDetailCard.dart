@@ -12,7 +12,6 @@ class _UserDetailCardState extends State<UserDetailCard>
 
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
 
     animationController =
@@ -28,12 +27,13 @@ class _UserDetailCardState extends State<UserDetailCard>
         parent: animationController,
         curve: Interval(0.3, 0.5, curve: Curves.fastOutSlowIn)));
   }
- @override
+
+  @override
   void dispose() {
-    // TODO: implement dispose
     animationController.dispose();
     super.dispose();
   }
+
   Widget build(BuildContext context) {
     animationController.forward();
     final double width = MediaQuery.of(context).size.width;
@@ -89,7 +89,7 @@ class _UserDetailCardState extends State<UserDetailCard>
                                         borderRadius: BorderRadius.circular(10),
                                       ),
                                       child: Text(
-                                        "17BCM011",
+                                        "RJC101",
                                         style: TextStyle(
                                           fontWeight: FontWeight.bold,
                                           fontSize: 13,
@@ -101,7 +101,7 @@ class _UserDetailCardState extends State<UserDetailCard>
                                   Padding(
                                     padding: const EdgeInsets.only(top: 10.0),
                                     child: Text(
-                                      "Deepakkumar",
+                                      "Saroj Kumar Yadav",
                                       style: TextStyle(
                                         fontWeight: FontWeight.bold,
                                         fontSize: 21,
@@ -116,7 +116,7 @@ class _UserDetailCardState extends State<UserDetailCard>
                                           MainAxisAlignment.spaceBetween,
                                       children: [
                                         Text(
-                                          "Standard: 12",
+                                          "Class: 12",
                                           style: TextStyle(
                                             fontWeight: FontWeight.bold,
                                             color: Colors.white,
