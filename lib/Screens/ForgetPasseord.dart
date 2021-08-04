@@ -15,7 +15,6 @@ class _ForgetPasswordState extends State<ForgetPassword>
 
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
     animationController =
         AnimationController(duration: Duration(seconds: 3), vsync: this);

@@ -37,7 +37,6 @@ class _LeaveApplyState extends State<LeaveApply>
 
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
     //SystemChrome.setEnabledSystemUIOverlays([]);
     _applyleavecontroller =
@@ -61,7 +60,6 @@ class _LeaveApplyState extends State<LeaveApply>
 
   @override
   void dispose() {
-    // TODO: implement dispose
     animationController.dispose();
     super.dispose();
   }

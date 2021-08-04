@@ -27,7 +27,6 @@ class _MyHomePageState extends State<MyHomePage>
 
   @override
   void initState() {
-    // TODO: implement initState
     WidgetsFlutterBinding.ensureInitialized();
     Firebase.initializeApp();
     super.initState();
@@ -51,7 +50,6 @@ class _MyHomePageState extends State<MyHomePage>
 
   @override
   void dispose() {
-    // TODO: implement dispose
     animationController.dispose();
     super.dispose();
   }
